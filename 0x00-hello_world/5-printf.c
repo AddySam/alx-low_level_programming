@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - the printf funtion is to print the comment
- *
+ * main - the printf funtion is to print the line of comment
  * Return: 0 when successfull
  */
 
