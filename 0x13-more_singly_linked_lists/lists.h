@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-// STRUCT LISTINT_S //
+/***** STRUCT LISTINT_S *****/
 
 /**
  * struct listint_s - singly linked list
@@ -20,7 +20,7 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
-// FUNC PROTOTYPES //
+/****** FUNC PROTOTYPES ******/
 
 size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
