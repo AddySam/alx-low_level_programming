@@ -2,9 +2,8 @@
 
 /**
  * add_nodeint_end - adds a node at the end of listint_t
- * at the head to pointer to node
- * at the data of the node
- *
+ * @head: pointer to node
+ * @n: data of node
  * Return: on success address of new node else NULL
  */
 
