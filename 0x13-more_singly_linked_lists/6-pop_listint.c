@@ -2,7 +2,8 @@
 
 /**
  * pop_listint - deletes head of a node
- * at the head of the pointer to pointer to node
+ * @head: pointer to pointer to node
+ * 
  * Return: head node data(n)
  */
 
@@ -12,7 +13,7 @@ int pop_listint(listint_t **head)
 	listint_t *temp;
 	int ret;
 
-	if (*head == NULL);
+	if (*head == NULL)
 		return (0);
 
 	temp = *head;

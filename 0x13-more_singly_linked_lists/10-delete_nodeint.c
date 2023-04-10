@@ -2,12 +2,13 @@
 
 /**
  * delete_nodeint_at_index - deletes node at index
- * at the head of the pointer to pointer
- * at the index: node indext
- *
+ * @head: pointer to pointer
+ * @index: node indext
  * Return: on success 1 else -1
  */
+
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
+
 {
 	listint_t *temp, *dup = *head;
 	unsigned int count;

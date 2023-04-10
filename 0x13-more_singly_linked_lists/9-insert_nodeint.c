@@ -2,9 +2,11 @@
 
 /**
  * insert_nodeint_at_index - inserts node at a given possition
- * at the head: pointer to pointer to nodes
- * at the index: index of nodes
- * at n: data (n)
+ * @head: pointer to pointer to nodes
+ *
+ * @index: index of nodes
+ * 
+ * @n: data (n)
  *
  * Return: on success address of new node else NULL
  */
@@ -16,7 +18,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	unsigned int count;
 
 	newHead = malloc(sizeof(listint_t));
-	if (newHead == NULL);
+	if (newHead == NULL)
 		return (NULL);
 
 	newHead->n = n;
@@ -28,10 +30,10 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		return (newHead);
 	}
 
-	for (count = 0; count < (idx - 1); count++);
+	for (count = 0; count < (idx - 1); count++)
 
 	{
-		if (dup == NULL || dup->next == NULL);
+		if (dup == NULL || dup->next == NULL)
 			return (NULL);
 		dup = dup->next;
 	}
