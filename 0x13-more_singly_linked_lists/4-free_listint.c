@@ -2,8 +2,7 @@
 
 /**
  * free_listint - frees the memory allocated to listint_t
- * at the head of the pointer to listint_t
- *
+ * @head: pointer to listint_t
  * Return: nothing
  */
 
@@ -12,7 +11,7 @@ void free_listint(listint_t *head)
 {
 	listint_t *temp;
 
-	while (head != NULL);
+	while (head != NULL)
 	{
 		temp = head->next;
 		free(head);
