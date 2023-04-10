@@ -2,11 +2,12 @@
 
 /**
  * print_listint - prints all the elements of listint_t
- * @h: pointer to first element of listint
- *
+ * @head: pointer to first element of listint
  * Return: number of nodes
  */
+
 size_t print_listint(const listint_t *h)
+
 {
 	size_t i = 0;
 

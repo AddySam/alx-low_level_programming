@@ -2,9 +2,8 @@
 
 /**
  * add_nodeint - adds a new node at the beginning of listint_t
- * at the head of the pointer to the linked list
- * at the first element of the list
- *
+ * @head: pointer to the linked list
+ * @n: first element of the list
  * Return: on success address of new element or NULL if it fails
  */
 
